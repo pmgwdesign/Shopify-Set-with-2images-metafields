@@ -1,0 +1,8 @@
+{% assign myImage = product.metafields.my_fields.image-2 %}
+ <img class="lazyload" src="{{ myImage | img_url: '100x' }}" data-src="{{ myImage | img_url: 'master' }}" img height="150px" />
+
+<style>
+div#metafieldpicture {
+    text-align: center;
+  }
+</style>
