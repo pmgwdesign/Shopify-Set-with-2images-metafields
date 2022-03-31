@@ -1,0 +1,17 @@
+
+       
+                {%- unless is_color -%}
+    {%- if option.position == 2 -%} 
+  <div id="metafieldpicture">
+    {%- render 'extra-image-1' -%}
+    </div>
+    {%- endif -%}   
+    {%- endunless -%}
+    
+                    {%- unless is_color -%}
+    {%- if option.position == 3 -%} 
+      <div id="metafieldpicture">
+   {%- render 'extra-image-2' -%}
+            </div>
+    {%- endif -%}   
+    {%- endunless -%}
